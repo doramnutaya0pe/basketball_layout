@@ -1,44 +1,183 @@
 body{
     font-family: "Montserrat", sans-serif;
-
 }
-.wrapper{
+.wrapper1{
     max-width: 1600;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: 84px; 
+    display: flex; 
+    margin: 0 auto;
 }
 .nav{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding-left: 0;
-    justify-content: space-between;
+    justify-content:space-between;
     margin:0 auto;
 }
 .nav >li{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 34px;
 }
 .nav >li>a{
     text-decoration:none ;
-    color: #3145FF;
+    color: #2A2D46;
     font-size: 12px;
+    height: 15px;
+    width: 339px;
+    margin-top: 34px;
+    left: 500px;
+    gap: 32.5px;
+}
+.logo-img{
+    width: 29px;
+    height: 29px;
+    margin-top: 28px;
+    left: 219px;
+    margin-right: 10px;
 }
 .logo{
     color: #3145FF;
     font-size: 12px;
     font-weight: 700;
+    width: 97px;
+    height: 15px;
+    margin-top: 27px;
+    left: 258px;
+}
+.under-logo{
+    width: 203px;
+    height: 15px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.63px;
+    margin-top: 42px;
+}
+.sneakers{
+    text-decoration:none ;
+    color:#3145FF ;
+    margin-top: 36px;
+    font-size: 12px;
+    left: 500px;
+}
+.points{
+    width: 19px;
+    height: 3px;
+    left: 500px;
+    margin-top: 42px;
 }
 .header-info span{
     color: #2A2D46;
     font-size: 13px;
     font-weight: 700;
+    width: 119px;
+    height: 15px;
+    margin-top: 34px;
+    left: 900px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .header-info button{
     color: #EB2D66;
     font-size: 11px;
     font-weight: 700;
+    line-height: 13.41px;
     border: 1px solid #EB2D66;
     background-color: white;
-    padding: 8px 15px;
+    width: 123px;
+    height: 25px;
+    margin-top: 30px;
+    left: 1053px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.ww{
+    text-decoration:none;
+    width: 85px;
+    height: 15px;
+    margin-top: 35px;
+    left: 1285px;
+}
+.basket{
+    width: 25px;
+    height: 25px;
+    left: 1245px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.price{
+    width: 63px;
+    height: 15px;
+    margin-top: 34px;
+    left: 1285px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+}
+.arrow{
+    width: 11px;
+    height: 6px;
+    margin-top: 40px;
+    margin-left: 5px;
+    left: 1359px; 
+}
+
+
+
+
+
+.wrapper2{
+    width: 544px;
+    height: 279px;
+    top: 150px;
+    left: 215px;
+}
+.text1{
+    color: #2A2D46;
+    width: 544px;
+    height: 88px;
+    top: 150px;
+    left: 215px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43.88px;
+    text-align: left;
+
+}
+.text2{
+    color: #2A2D46;
+    width: 380px;
+    height: 78px;
+    top: 263px;
+    left: 215px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.72px;
+    text-align: left;
+}
+.catalog button{
+    background-color: #EB2D66;
+    width: 239px;
+    height: 63px;
+    top: 366px;
+    left: 215px;
+    color: white;
+    border: 1px solid #EB2D66;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0px 8px 25px 8px rgba(235, 45, 102, 0.2);
+}
+.background{
+    width: 615px;
+    height: 369px;
+    top: 105px;
+    left: 929px;
+
+
+}
+.crosses{
+    width: 554px;
+    height: 332px;
+    top: 207px;
+    left: 742px;
 }
