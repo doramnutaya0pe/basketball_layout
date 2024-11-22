@@ -1,215 +1,188 @@
 body{
     font-family: "Montserrat", sans-serif;
 }
+
 .wrapper1{
-    max-width: 1600px;
-    height: 84px; 
-    display: flex; 
-    margin-left: 219px;
-    margin-right: 230px;
-    
-}
-.nav{
+    max-width: 1167px;
+    margin: 0 auto;
+    margin-top: 27px;
     display: flex;
-    justify-content: center;
-    list-style-type: none;
-    justify-content:space-between;
-    margin:0 auto;
+    align-items: center;
+    justify-content: space-between;
 }
-.nav >li{
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 34px;
+.logo-header{
+    display: flex;
+    gap: 10px;
 }
-.nav >li>a{
-    text-decoration:none ;
-    color: #2A2D46;
-    font-size: 12px;
-    height: 15px;
-    width: 339px;
-    margin-top: 34px;
-    left: 500px;
-    gap: 32.5px;
-}
-.logo-img{
+.logo-img{    
     width: 29px;
     height: 29px;
-    margin-top: 28px;
-    left: 219px;
-    margin-right: 10px;
 }
-.logo{
+.logo{ 
     color: #3145FF;
     font-size: 12px;
     font-weight: 700;
+    line-height: 14.63px;
     width: 97px;
     height: 15px;
-    margin-top: 27px;
-    left: 258px;
 }
 .under-logo{
-    width: 203px;
+    color: #2A2D46;
+    width: 230px;
     height: 15px;
     font-weight: 300;
     font-size: 12px;
     line-height: 14.63px;
-    margin-top: 42px;
 }
-.sneakers{
-    text-decoration:none ;
-    color:#3145FF ;
-    margin-top: 36px;
+.menu{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 339px;
+    height: 15px;
+}
+.ul1{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 32.5px;
+    padding: 0;
+}
+.ul1 > li > a:hover {
+    color: #3145FF;
+}
+.ul1 > li > a{
+    text-decoration: none;
+    color: #2A2D46;
     font-size: 12px;
-    left: 500px;
+    font-weight: 400;
+    line-height: 14.63px;
 }
 .points{
     width: 19px;
     height: 3px;
-    left: 500px;
-    margin-top: 42px;
 }
-.header-info span{
+.phone{
     color: #2A2D46;
     font-size: 13px;
     font-weight: 700;
+    line-height: 15.85px;
+    gap: 61px;
     width: 119px;
     height: 15px;
-    margin-top: 34px;
-    left: 900px;
-    margin-left: 40px;
-    margin-right: 15px;
 }
-.header-info button{
+.button button{
+    background-color: white;
+    gap: 34px;
     color: #EB2D66;
     font-size: 11px;
     font-weight: 700;
     line-height: 13.41px;
     border: 1px solid #EB2D66;
-    background-color: white;
     width: 123px;
     height: 25px;
-    margin-top: 30px;
-    left: 1053px;
-    margin-left: 20px;
-    margin-right: 40px;
 }
-.ww{
-    text-decoration:none;
-    width: 85px;
-    height: 15px;
-    margin-top: 35px;
-    left: 1285px;
+.cart{
+    align-items: center;
+    display: flex;
 }
 .basket{
     width: 25px;
     height: 25px;
-    left: 1245px;
-    margin-top: 30px;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 .price{
     width: 63px;
     height: 15px;
-    margin-top: 34px;
-    left: 1285px;
     font-size: 12px;
     font-weight: 700;
     line-height: 14.63px;
 }
 .arrow{
+    align-items: center;
+    display: flex;
     width: 11px;
     height: 6px;
-    margin-top: 40px;
-    margin-left: 5px;
-    left: 1359px; 
+    margin-left: 11px;
 }
-
-
-
-
 
 .wrapper2{
-    max-width: 1600px;
+    max-width:1167px ;
+    margin: 0 auto;
+    height: 434px;
+}
+.info{
+    gap: 25px;
+    text-align: left;
     width: 544px;
     height: 279px;
-    top: 150px;
-    left: 215px;
-    margin-left: 215px;
-    margin-right: 56px;
 }
 .text1{
+    margin-top: 66px;
+    margin-bottom: 25px;
     color: #2A2D46;
     width: 544px;
     height: 88px;
-    top: 150px;
-    left: 215px;
     font-size: 36px;
     font-weight: 900;
-    line-height: 43.88px;
-    text-align: left;
-
+    line-height: 43.88px;  
 }
 .text2{
     color: #2A2D46;
     width: 380px;
     height: 78px;
-    top: 263px;
-    left: 215px;
     font-size: 18px;
     font-weight: 400;
     line-height: 25.72px;
-    text-align: left;
+    margin-bottom: 25px;
 }
-.catalog button{
+.info button{
     background-color: #EB2D66;
     width: 239px;
     height: 63px;
-    top: 366px;
-    left: 215px;
     color: white;
     border: 1px solid #EB2D66;
     font-size: 16px;
     font-weight: 700;
+    line-height: 22.86px;
     box-shadow: 0px 8px 25px 8px rgba(235, 45, 102, 0.2);
 }
-
 .background{
     width: 615px;
     height: 369px;
     top: 105px;
-    left: 929px;
-    position: fixed;
-
+    left: 850px;
+    position: absolute;
 }
 .crosses{
     width: 554px;
     height: 332px;
     top: 207px;
-    left: 742px;
-    position: fixed;
+    left: 663px;
+    position: absolute;
 }
 .slide{
-    position: fixed;
+    position: absolute;
     width: 153px;
     height: 8px;
     top: 437px;
-    left: 1348px;
+    left: 1269px;  
 }
 .rectangle{
-    position: fixed;
+    position: absolute;
     width: 13px;
     height: 13px;
     top: 150px;
-    left: 1264px;
+    left: 1185px;
 }
 .nike1{
     margin-top: 10px;
     color: #FFFFFF;
-    position: fixed;
+    position: absolute;
     width: 153px;
     height: 21px;
     top: 160px;
-    left: 1282px; 
+    left: 1203px; 
     font-size: 17px;
     font-weight: 700;
     line-height: 20.72px;
@@ -217,12 +190,12 @@ body{
 }
 .nike2{
     color: #FFFFFF;
-    position: fixed;
+    position: absolute;
     margin-top: 10px;
     width: 235px;
     height: 30px;
     top: 184px;
-    left: 1282px;
+    left: 1203px;
     font-size: 12px;
     font-weight: 400;
     line-height: 14.63px;
@@ -230,14 +203,762 @@ body{
 }
 .nike3{
     color: #FFFFFF;
-    position: fixed;
+    position: absolute;
     margin-top: 10px;
     width: 61px;
     height: 12px;
     top: 220px;
-    left: 1282px;
+    left: 1203px;
     font-size: 12px;
     font-weight: 700;
     line-height: 14.63px;
     text-align: left;
+} 
+
+.wrapper3{
+    max-width: 1167px;
+    margin: 0 auto;
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hot{
+    color: #2A2D46;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-right: 94px;
+}
+.menu2{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 63.5px;
+    height: 18px;
+}
+.ul2{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 63.5px;
+    padding: 0;
+}
+.ul2 > li > a:hover {
+    color: #3145FF;
+}
+.ul2 > li > a{
+    text-decoration: none;
+    color: #2A2D46;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 18.29px;
+}
+
+.wrapper4{
+    position: relative;
+    max-width:1171px;
+    margin: 0 auto;
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+.ball-img{
+    position: relative;
+    width: 270px;
+    height: 417px;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0px 15px 30px 0px #3145FF12;
+}
+.basketball_{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 44px;
+    top: 20px;
+    right: 44px;
+}
+.ball{
+    position: absolute;
+    left: 39px;
+    top: 47px;
+    right: 40px;
+}
+.text3{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 23px;
+    top: 257px;
+    right: 15px;
+}
+.price1{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 100px;
+    top: 336px;
+
+}
+.price2{
+    position: absolute;
+    color: #3145FF;  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 31px;
+    top: 356px;
+
+}
+.arrow2{
+    position: absolute;
+    left: 217px;
+    top: 356px;
+}
+.cross-img{
+    position: relative;
+    width: 269px;
+    height: 417px;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0px 15px 30px 0px #3145FF12;
+}
+.cross_{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 34.84px;
+    top: 20px;
+    right: 36.16px;
+
+    
+}
+.cross{
+    position: absolute;
+    left: 38.86px;
+    top: 47px;
+    right: 39.85px;
+}
+.text4{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 21.91px;
+    top: 257px;
+    right: 15.09px;
+}
+.price3{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 99.63px;
+    top: 336px;
+    right: 98.37px;
+
+}
+.price4{
+    position: absolute;
+    color: #3145FF;  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 30.89px;
+    top: 356px;
+
+}
+.arrow3{
+    position: absolute;
+    left: 216.2px;
+    top: 356px;
+}
+.undershirt-img{
+    position: relative;
+    width: 269px;
+    height: 417px;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0px 15px 30px 0px #3145FF12;
+}
+.undershirt_{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 43.84px;
+    top: 20px;    
+}
+.undershirt{
+    position: absolute;
+    left: 38.86px;
+    top: 47px;
+
+}
+.text5{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 22.91px;
+    top: 257px;
+
+}
+.price5{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 99.63px;
+    top: 336px;
+
+
+}
+.price6{
+    position: absolute;
+    color: #3145FF;  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 30.89px;
+    top: 356px;
+
+}
+.arrow4{
+    position: absolute;
+    left: 216.2px;
+    top: 356px;
+}
+.shorts-img{
+    position: relative;
+    width: 269px;
+    height: 417px;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0px 15px 30px 0px #3145FF12;
+}
+.shorts_{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 29.84px;
+    top: 20px;    
+}
+.shorts{
+    position: absolute;
+    left: 38.86px;
+    top: 47px;
+
+}
+.text6{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 28.91px;
+    top: 257px;
+
+}
+.price7{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 99.63px;
+    top: 336px;
+
+
+}
+.price8{
+    position: absolute;
+    color: #3145FF;  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 30.89px;
+    top: 356px;
+
+}
+.arrow5{
+    position: absolute;
+    left: 216.2px;
+    top: 356px;
+}
+
+.perem{
+    max-width:1171px;
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: 34px;
+}
+
+.wrapper5{
+    max-width: 1167px;
+    height: 419px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 96px;
+    align-items: center;
+    justify-content: space-between;
+}
+.image1{
+    position: relative;
+}
+.img1{
+    background-size: cover;
+    box-shadow: 0px 15px 50px 0px rgba(45, 47, 94, 0.3);   
+}
+.plus{
+    position: absolute;
+    left: 535px;
+    top: 15px;
+}
+.kvadr{
+    position: absolute;
+    left: 39px;
+    top: 273px;
+}
+.new_cr{
+    position: absolute;
+    left: 72px;
+    top: 292px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24.38px;
+    text-align: left;
+    color: white;
+    width: 228px;
+    height: 48px;
+}
+.air{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    text-align: left;  
+    left: 72px;
+    top: 354px;
+    color: white;
+}
+.image2{
+    position: relative;
+}
+.img2{   
+    background-size: cover;
+    box-shadow: 0px 15px 30px 0px rgba(49, 69, 255, 0.07);
+}
+.plus2{
+    position: absolute;
+    left: 527px;
+    top: 15px;
+}
+.adidas{
+    color: white;
+    position: absolute;
+    width: 211px;
+    height: 48px;
+    left: 72px;
+    top: 292px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24.38px;
+    text-align: left;  
+}
+.may{
+    position: absolute;
+    color: white;
+    left: 72px;
+    top: 354px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    text-align: left;
+
+
+}
+
+.catalog{
+    max-width: 1167px;
+    margin: 0 auto;
+    margin-top: 96px;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.wrapper6{
+    max-width: 1167px;
+    margin: 0 auto;
+    margin-top: 51px;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.line2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.text7{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 21px;
+    top: 257px;
+
+}
+.cross_2{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 14px;
+    top: 20px;    
+}
+.text7{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 16px;
+    top: 257px;
+
+}
+.text8{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 16px;
+    top: 257px;
+}
+.undershirt_2{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left:61px;
+    top: 20px;    
+}
+.undershirt2{
+    position: absolute;
+    left: 39px;
+    top: 47px;
+
+}
+.text7{
+    position: absolute;
+    color: #2A2D46;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 27px;
+    top: 257px;
+
+}
+.price7{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 100px;
+    top: 336px;
+
+
+}
+.price8{
+    position: absolute;
+    color: #3145FF;  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 31px;
+    top: 356px;
+
+}
+.arrow5{
+    position: absolute;
+    left: 217px;
+    top: 356px;
+}
+
+.wrapper7{
+    max-width: 1171px;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+.info-info{
+    color: #2A2D46;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    gap: 41px;
+}
+.one{
+    display: flex;
+    margin-top: 64px;
+    align-items: center;
+    gap: 11px;
+}
+.two{
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.three{
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.four{
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.num1{
+    color: #2A2D46;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60.95px;   
+}
+.num2{
+    color: #2A2D46;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60.95px;   
+}
+.num3{
+    color: #2A2D46;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60.95px;   
+}
+.num4{
+    color: #2A2D46;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60.95px;   
+}
+.word1{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+.word2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+.word3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+.word4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+
+.wrapper8{
+    background-color: #343A62;
+}
+
+.wrapper9{
+    max-width: 1167px;
+    display: flex;
+    height: 276px; 
+    margin: 0 auto;
+    margin-top: 96px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-header2{
+    display: flex;
+    gap: 10px;
+}
+.logo-img2{    
+    width: 29px;
+    height: 29px;
+}
+.logo2{ 
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    width: 97px;
+    height: 15px;
+}
+.under-logo2{
+    color: white;
+    width: 230px;
+    height: 15px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.63px;
+}
+.menu3{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 339px;
+    height: 15px;
+}
+.ul3{
+    display: flex;
+    
+    list-style-type: none;
+    align-items: center;
+    gap: 32.5px;
+    padding: 0;
+}
+.ul3 > li > a:hover {
+    color: #3145FF;
+}
+.ul3 > li > a{
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+}
+.points2{
+    width: 19px;
+    height: 3px;
+}
+.phone2{
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.85px;
+    gap: 61px;
+    width: 119px;
+    height: 15px;
+}
+.button2 button{
+    background-color: #343A62;
+    gap: 34px;
+    color: #EB2D66;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13.41px;
+    border: 1px solid #EB2D66;
+    width: 123px;
+    height: 25px;
 }
